@@ -1,0 +1,102 @@
+.continer{
+    background-color: rgb(104, 183, 114);
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.center{
+
+    
+}
+.foot{
+    background-color:  var(--bs-blue);
+    text-align: center;
+    margin: 0%;
+    
+}
+.box1 {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: rgb(104, 183, 114);
+  }
+  .box2 {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: rgb(104, 183, 114);
+  }
+  .center {
+    display: block;
+    margin: auto;
+    background-color: aquamarine;
+}
+.main{
+  display: inline-block;
+  max-width: px;
+  margin: auto;
+}
+
+  .cade{
+    display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  margin: 10px;
+  width: 100%; /* 50% ของความกว้างของหน้าจอ */
+  height: 100%; /* 30% ของความสูงของหน้าจอ */
+  margin: 0 auto;
+  white-space: nowrap;
+  justify-content:center ;
+    
+  }
+  .colar{
+    background-color: aquamarine;
+  }
+.end1{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+}
+.end2{
+  width: 200px;
+  height: 60px;
+  margin-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+}
+.my-image {
+  aspect-ratio: 16 / 9; /* สัดส่วน 16:9 */
+  width: 100%;
+  object-fit: contain;
+}
+.img{
+  margin: 5px;
+  padding: 10px;
+ 
+
+}
+.multiline-text {
+  white-space: pre-line;
+}
+.cade1{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center ;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
+  width: 100%; /* 50% ของความกว้างของหน้าจอ */
+  height: 100%; /* 30% ของความสูงของหน้าจอ */
+  margin: 0 auto;
+  white-space: nowrap;
+  background-color: rgb(104, 183, 114);
+}
+
+.font{
+
+  font-family: monospace;
+}
